@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 //namespace FirstDemo1
-////{
-////    //internal class demo2
-////    //{      
-////    //    Console.WriteLine("Enter the first number");
-////    //}
+//{
+//    internal class Pattern9
+//    {
+//        static void Main(string[] args)
+//        {
+           
+//        }
+//    }
 //}

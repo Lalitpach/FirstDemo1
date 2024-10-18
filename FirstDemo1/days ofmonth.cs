@@ -5,28 +5,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//namespace FirstDemo1
-//{
-//    internal class days_ofmonth
-//    {
-//        static void Main(string[] args)
-//        {
-//            Console.WriteLine("Enter month");
-//            String month = Console.ReadLine());
-//            if (month.Equals("january") || month.Equals("march") || month.Equals("May") || month.Equals("july") || month.Equals("august") || month.Equals("september") || month.Equals("octomber") || month.Equals("december")) ;
+namespace firstdemo1
+{
+    internal class days_ofmonth
+    {
+        static void main(string[] args)
+        {
+            Console.WriteLine("enter month number (1-12):");
+            int month = Convert.ToInt32(Console.ReadLine());
 
-//            {
-//                Console.WriteLine("days in month=31");
-//            }
-//            else if (month.Equals("january") || month.Equals("march") || month.Equals("May") || month.Equals("july") || month.Equals("august") || month.Equals("september") || month.Equals("octomber") || month.Equals("december")) ;
-//            {
-//                Console.WriteLine("days in month=30");
+            Console.WriteLine("enter the year:");
+            int year = Convert.ToInt32(Console.ReadLine());
+            int dayInMonth = DateTime.DaysInMonth(year, month);
+            Console.WriteLine("the total number of days in month" + month + "of year" + year + "is" + dayInMonth);
 
 
-//            }
-       
+        }
 
 
-//        }
-//    }
-//}
+
+    }
+}
+

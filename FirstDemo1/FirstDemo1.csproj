@@ -44,23 +44,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="7 element.cs" />
+    <Compile Include="alphabet.cs" />
     <Compile Include="Clalculatorcs.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
     <Compile Include="days ofmonth.cs" />
     <Compile Include="demo2.cs" />
+    <Compile Include="digit.cs" />
     <Compile Include="Displaynumber.cs" />
     <Compile Include="even or odd number.cs" />
     <Compile Include="even.cs" />
     <Compile Include="factorial.cs" />
+    <Compile Include="Fibnociiee series.cs" />
     <Compile Include="first 10 even number.cs" />
+    <Compile Include="Grosssallary.cs" />
     <Compile Include="Leaf yearcs.cs" />
     <Compile Include="maximum number.cs" />
     <Compile Include="number is divisiblecs.cs" />
     <Compile Include="oddnumber.cs" />
     <Compile Include="palindrome2.cs" />
     <Compile Include="palindromre number.cs" />
+    <Compile Include="Pattern1.cs" />
+    <Compile Include="Pattern2.cs" />
+    <Compile Include="pattern3.cs" />
+    <Compile Include="Pattern4.cs" />
+    <Compile Include="pattern5cs.cs" />
+    <Compile Include="pattern6.cs" />
+    <Compile Include="Pattern7.cs" />
+    <Compile Include="pattern8.cs" />
+    <Compile Include="Pattern9.cs" />
     <Compile Include="positive or negative number.cs" />
+    <Compile Include="Prime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="vowel and consonant.cs" />
