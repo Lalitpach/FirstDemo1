@@ -11,13 +11,17 @@ namespace firstdemo1
     {
         static void main(string[] args)
         {
-            Console.WriteLine("enter month number (1-12):");
-            int month = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("enter the year:");
-            int year = Convert.ToInt32(Console.ReadLine());
-            int dayInMonth = DateTime.DaysInMonth(year, month);
-            Console.WriteLine("the total number of days in month" + month + "of year" + year + "is" + dayInMonth);
+            Console.WriteLine("enter months");
+            String month = Conole.Readline();
+            if (month == "febuary" || month = "febuary")
+            {
+                Console.WriteLine($"{month} has 28days");
+            }
+            else if (month == "january" || month == "feb" || month == "March" || month == "april" || month == "May" || month == "june" || month == "july" || month == "august" || month == "sep" || month =="oct" || month = "nov" || month = "dec") ;
+            {
+                Console.WriteLine($"{month} has 31days");
+            }
+            
 
 
         }
